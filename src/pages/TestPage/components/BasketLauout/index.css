@@ -1,0 +1,12 @@
+.basket__name {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 70px 0;
+  letter-spacing: 2px;
+}
+div .buy__btn {
+  margin: 50px auto 0;
+  display: block;
+}
+div .buy__btn:hover {
+}

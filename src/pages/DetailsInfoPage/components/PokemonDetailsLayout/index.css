@@ -1,0 +1,51 @@
+.hero {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+.hero__header {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  margin: 15px 0;
+}
+.hero__img {
+}
+.hero__img-img {
+}
+.hero__container {
+  width: 470px;
+  margin: 0 auto;
+}
+.hero__heading {
+  font-size: 18px;
+}
+.hero__item {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.hero__item__head {
+  text-align: left;
+}
+.hero__item__body {
+  width: 300px;
+  text-align: justify;
+  text-transform: none;
+}
+.hero__item-hp {
+}
+.hero__item-attack {
+}
+.hero__item-defense {
+}
+.hero__item-special-attack {
+}
+.hero__item-special-defense {
+}
+.hero__item-speed {
+}
+div .hero__buy {
+  margin-top: 30px;
+}

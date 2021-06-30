@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 70px;
+  background: linear-gradient(#8ae9ff, #fbfeff);
+}
+.header__name .header__link {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: black;
+}
+.header__name .header__link:hover {
+  text-decoration: none;
+}
+.header__content {
+  display: flex;
+}
+.header__basket {
+  margin-right: 15px;
+}
+.header__menu {
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: fit-content;
+  margin: auto 0;
+}

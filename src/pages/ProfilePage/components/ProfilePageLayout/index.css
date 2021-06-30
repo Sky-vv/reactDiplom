@@ -1,0 +1,60 @@
+.profile {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+  max-width: 1200px;
+}
+.profile__user {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+.profile__history {
+  flex-grow: 2;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 0 20px 20px;
+}
+.profile__head {
+  display: flex;
+}
+.profile__avatar-img {
+  width: 200px;
+  margin: 0 20px 20px 0;
+  border: 1px solid gray;
+}
+.profile__name {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.setting__item {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.setting__item:hover {
+  color: rgb(13, 204, 188);
+}
+.history__head {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.history__item {
+  margin-bottom: 20px;
+}
+.history__item__head {
+  font-weight: bold;
+  line-height: 40px;
+}
+.history__item__body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.history__item__footer {
+  line-height: 40px;
+}
+.history__item__pokemon {
+  margin: 10px 20px;
+}
